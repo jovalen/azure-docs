@@ -174,7 +174,7 @@ Verify that `myExternalParquetTable` is included in the results.
 Now you can read the data from your serverless SQL pool as follows:
 
 ```sql
-SELECT * FROM mytestdb.dbo.myExternalParquetTable WHERE name = 'Alice';
+SELECT * FROM mytestdb.dbo.myexternalparquettable WHERE name = 'Alice';
 ```
 
 You should get the following row as result:
